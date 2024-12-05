@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be - Yum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-toggle-label">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+             <!-- <li><a href="#features">مميزاتنا</a></li> -->
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo">
+        </div>
+        
+    </header>
+    <section id="home" class="landing">
+        <h2>مرحبا بكم في موقعنا</h2>
+        <p>نقدم لك أفضل الأطعمة وأجملها ذوقا أكثر من 350 وصفة</p>
+        <button>تعرف على المزيد</button>
+    </section>
+    <section id="services" class="services">
+        <h2>مزايا <span>خدماتنا</span></h2>
+        <div class="cards">
+            <div class="card">
+                <figure>
+                    <img src="./images/intro_img01.png" alt="ميزة 1">
+                </figure>
+                <h3>وجبات فطور</h3>
+                <p>ألذ وصفات الفطور بوصفات عالمية ومتنوعة</p>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="./images/intro_img03.png" alt="ميزة 2">
+                </figure>
+                <h3>وجبات الغذاء</h3>
+                <p>ألذ وصفات الغذاء بوصفات عالمية ومتنوعة</p>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="./images/intro_img04.png" alt="ميزة 3">
+                </figure>
+                <h3>وصفات الحلويات</h3>
+                <p>ألذ وصفات الحلويات بوصفات عالمية ومتنوعة</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>اتصل <span>بنا</span></h2>
+        <form action="#" method="POST">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">الرسالة:</label>
+            <textarea id="message" name="message" required></textarea>
+            <div class="action_btn">
+                <button type="submit">إرسال</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 حقوق النشر محفوظة - Be - Yunm</p>
+        <div class="social-links">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
